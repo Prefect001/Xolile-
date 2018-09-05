@@ -1,0 +1,28 @@
+page-chat-room {
+    .nickname {
+        color: #afaf;
+    }
+    .message{
+        padding: 10px !important;
+        transition: px 250ms ease-in-out !important;
+        border-radius: 10px !important;
+        margin-bottom: 4px !important;
+        background-color: rgb(36, 99, 11);
+    }
+    .my_message{
+        background: color($colors, primary) !important;
+        color: rgb(104, 24, 24) !important;
+    }
+    .other_massage {
+        background: #cf1616 !important;
+        color: #000 !important;
+    }
+    .time{
+        color: #aa1212;
+        float: right;
+        font-size: small;
+    }
+    .message_row{
+        background-color: rgb(36, 99, 11);
+    }
+}
